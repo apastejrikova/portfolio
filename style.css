@@ -120,7 +120,7 @@ header.navbar {
 }
 
 .label-box {
-  background-color: #a5b4fc;
+  background-color: #96b4ff;
   font-family: Plus Jakarta Sans;
   position: absolute;
   top: 0;
@@ -138,7 +138,7 @@ header.navbar {
 }
 
 .description-box {
-  background-color: #f1f5f9;
+  background-color: #e9ecf5;
   position: absolute;
   top: 131px;
   left: 109px;
@@ -369,6 +369,11 @@ header.navbar {
   font-size: 1rem;
   font-family: Poppins;
   font-weight: 300;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #454545;
 }
 
 .contact-form textarea {
